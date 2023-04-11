@@ -1,0 +1,16 @@
+audacity
+autorandr
+docker
+bitwarden
+discord
+docker-buildx
+firefox
+gimp
+gparted
+gpick
+helm
+kubectl
+minikube
+python
+unzip
+yay

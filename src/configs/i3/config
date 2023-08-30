@@ -178,7 +178,7 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws10
 bindsym $mod+w kill
 
 # exit-menu
-bindsym $mod+Escape exec ~/.config/i3/scripts/powermenu
+bindsym $mod+Escape exec ~/.config/i3/scripts/power-menu
 
 # Lock the system
 # lock with a picture:

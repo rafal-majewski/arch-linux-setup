@@ -15,3 +15,15 @@ python
 unzip
 yay
 redshift
+google-chrome
+hadolint
+nvm
+postman-bin
+rofi-greenclip
+scala
+spotify
+srandrd
+teams
+visual-studio-code-bin
+steam
+git

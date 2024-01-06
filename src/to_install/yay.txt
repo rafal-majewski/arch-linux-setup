@@ -26,3 +26,4 @@ teams
 visual-studio-code-bin
 steam
 git
+github-cli

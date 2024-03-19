@@ -584,9 +584,7 @@ bindsym $mod+b exec zsh -c 'rofi -show window -config ~/.config/rofi/rofidmenu.r
 
 ## rofi bindings to manage clipboard (install rofi-greenclip from the AUR)
 
-exec --no-startup-id greenclip daemon>/dev/null
-exec --no-startup-id greenclip clear
-bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard \
-		-config ~/.config/rofi/rofidmenu.rasi
+exec --no-startup-id greenclip daemon > /dev/null
+bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard -config ~/.config/rofi/rofidmenu.rasi
 exec --no-startup-id srandrd autorandr --change
 exec --no-startup-id git config --global core.editor "code --wait"

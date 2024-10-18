@@ -30,3 +30,5 @@ if ! command -v yay &> /dev/null; then
 fi
 echo "Updating what is currently installed using Yay..."
 yay --sync --refresh --sysupgrade
+echo "Installing OpenSSH..."
+yay --sync --needed openssh

@@ -50,3 +50,6 @@ yay -S i3-wm
 
 echo "Installing Rofi for i3..."
 yay -S rofi
+
+echo "Installing the \"xorg-xinit\" package for i3..."
+yay -S xorg-xinit

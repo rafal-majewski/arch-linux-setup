@@ -38,3 +38,9 @@ yay -Syu
 
 echo "Installing OpenSSH..."
 yay -S openssh
+
+echo "Checking if SSH is configured..."
+if [ ! -d ~/.ssh ]; then
+	echo "Creating a new SSH key pair..."
+	ssh-keygen -t ed25519
+fi

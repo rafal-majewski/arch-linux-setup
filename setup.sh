@@ -80,3 +80,6 @@ yay -S less
 
 echo "Installing Ark..."
 yay -S ark
+
+echo "Installing Thunar..."
+yay -S thunar

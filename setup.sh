@@ -61,3 +61,5 @@ echo "Installing GIMP..."
 yay --sync --needed gimp
 echo "Installing the \"net-tools\" package..."
 yay --sync --needed net-tools
+echo "Installing Less..."
+yay --sync --needed less

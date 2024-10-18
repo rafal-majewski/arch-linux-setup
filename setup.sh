@@ -77,3 +77,6 @@ yay -S net-tools
 
 echo "Installing Less..."
 yay -S less
+
+echo "Installing Ark..."
+yay -S ark

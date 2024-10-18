@@ -28,3 +28,5 @@ if ! command -v yay &> /dev/null; then
 	cd "${CURRENT_WORKING_DIRECTORY_PATH}"
 	rm -rf /tmp/yay
 fi
+echo "Updating what is currently installed using Yay..."
+yay --sync --refresh --sysupgrade

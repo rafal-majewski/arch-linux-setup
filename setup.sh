@@ -52,3 +52,5 @@ rsync --archive --delete "$(dirname $0)/assets/.config/i3/" ~/.config/i3/
 i3-msg reload
 echo "Configuring xinit..."
 cp "$(dirname $0)/assets/.xinitrc" "~/.xinitrc"
+echo "Installing Visual Studio Code..."
+yay --sync --needed visual-studio-code-bin

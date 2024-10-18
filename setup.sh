@@ -9,3 +9,10 @@ if [ -z "$(git config --global user.name)" ]; then
 	echo "Setting the git user name..."
 	git config --global user.name "$GIT_USER_NAME"
 fi
+
+echo "Checking if the git user email address is set..."
+if [ -z "$(git config --global user.email)" ]; then
+	read -p "Enter your git user email address: " GIT_USER_EMAIL_ADDRESS
+	echo "Setting the git user email address..."
+	git config --global user.email "$GIT_USER_EMAIL_ADDRESS"
+fi

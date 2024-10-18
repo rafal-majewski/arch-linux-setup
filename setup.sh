@@ -62,3 +62,6 @@ i3-msg reload
 
 echo "Installing Visual Studio Code..."
 yay -S visual-studio-code-bin
+
+echo "Setting Visual Studio Code as the text editor for Git..."
+git config --global core.editor "code --wait"

@@ -48,3 +48,6 @@ fi
 
 echo "Installing i3..."
 yay --sync --needed i3-wm
+
+echo "Installing Rofi for i3..."
+yay --sync --needed rofi

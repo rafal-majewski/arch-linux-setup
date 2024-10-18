@@ -83,3 +83,6 @@ yay -S ark
 
 echo "Installing Thunar..."
 yay -S thunar
+
+echo "Installing Termite..."
+yay -S termite

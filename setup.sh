@@ -54,3 +54,5 @@ echo "Configuring xinit..."
 cp "$(dirname $0)/assets/.xinitrc" "$HOME/.xinitrc"
 echo "Installing Visual Studio Code..."
 yay --sync --needed visual-studio-code-bin
+echo "Setting Visual Studio Code as the text editor for Git..."
+git config --global core.editor "code --wait"

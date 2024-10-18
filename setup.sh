@@ -47,3 +47,6 @@ fi
 
 echo "Installing i3..."
 yay -S i3-wm
+
+echo "Installing Rofi for i3..."
+yay -S rofi

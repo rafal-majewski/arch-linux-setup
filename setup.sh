@@ -71,3 +71,6 @@ yay -S google-chrome
 
 echo "Installing GIMP..."
 yay -S gimp
+
+echo "Installing the \"net-tools\" package..."
+yay -S net-tools

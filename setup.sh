@@ -65,3 +65,5 @@ echo "Installing Google Chrome..."
 yay --sync --needed google-chrome
 echo "Installing GIMP..."
 yay --sync --needed gimp
+echo "Installing the \"net-tools\" package..."
+yay --sync --needed net-tools

@@ -53,3 +53,6 @@ yay -S rofi
 
 echo "Installing the \"xorg-xinit\" package for i3..."
 yay -S xorg-xinit
+
+echo "Installing the \"xorg-server\" package for i3..."
+yay -S xorg-server

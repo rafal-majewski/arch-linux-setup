@@ -66,3 +66,5 @@ echo "Installing Ark..."
 yay --sync --needed ark
 echo "Installing Termite..."
 yay --sync --needed termite
+echo "Installing Thunar..."
+yay --sync --needed thunar

@@ -59,3 +59,6 @@ cp $(dirname $0)/assets/decrease-brightness.sh ~/.i3/scripts/decrease-brightness
 cp $(dirname $0)/assets/increase-brightness.sh ~/.i3/scripts/increase-brightness.sh
 cp $(dirname $0)/assets/.xinitrc ~/.xinitrc
 i3-msg reload
+
+echo "Installing Visual Studio Code..."
+yay -S visual-studio-code-bin

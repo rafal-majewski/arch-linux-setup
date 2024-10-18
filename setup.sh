@@ -72,3 +72,7 @@ mkdir -p ~/.config/xfce4
 cp $(dirname $0)/assets/.config/xfce4/helpers.rc ~/.config/xfce4/helpers.rc
 echo "Installing Termite..."
 yay --sync --needed termite
+echo "Configuring Bash..."
+cp $(dirname $0)/assets/.bashrc ~/.bashrc
+cp $(dirname $0)/assets/.bash_profile ~/.bash_profile
+cp $(dirname $0)/assets/.bash_logout ~/.bash_logout

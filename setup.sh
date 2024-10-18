@@ -74,3 +74,6 @@ yay --sync --needed less
 
 echo "Installing Ark..."
 yay --sync --needed ark
+
+echo "Installing Thunar..."
+yay --sync --needed thunar

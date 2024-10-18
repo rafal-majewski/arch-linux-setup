@@ -74,3 +74,6 @@ yay -S gimp
 
 echo "Installing the \"net-tools\" package..."
 yay -S net-tools
+
+echo "Installing Less..."
+yay -S less

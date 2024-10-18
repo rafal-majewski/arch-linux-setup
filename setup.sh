@@ -35,3 +35,6 @@ fi
 
 echo "Updating what's currently installed using Yay..."
 yay -Syu
+
+echo "Installing OpenSSH..."
+yay -S openssh

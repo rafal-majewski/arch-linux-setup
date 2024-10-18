@@ -68,3 +68,6 @@ git config --global core.editor "code --wait"
 
 echo "Installing Google Chrome..."
 yay -S google-chrome
+
+echo "Installing GIMP..."
+yay -S gimp

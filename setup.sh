@@ -84,3 +84,5 @@ cp "$(dirname "${0}")/assets/.bash_profile" "${HOME}/.bash_profile"
 cp "$(dirname "${0}")/assets/.bash_logout" "${HOME}/.bash_logout"
 echo "Installing the \"noto-fonts-emoji\" package..."
 yay --sync --needed noto-fonts-emoji
+echo "Installing Spectacle"
+yay --sync --needed spectacle

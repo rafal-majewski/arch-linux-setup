@@ -71,6 +71,7 @@ bindsym $mod+g split h
 bindsym $mod+space focus mode_toggle
 bindsym $mod+v split v
 bindsym $mod+w kill
+bindsym Print mode $printBindingModeName
 client.background $errorColor
 client.focused $white $darkLightGray $white $white $white
 client.focused_inactive $lightLightGray $darkDarkGray $lightLightGray $lightLightGray $lightLightGray
@@ -83,6 +84,13 @@ font pango: Noto Sans Regular 12
 gaps inner 0
 gaps outer 0
 hide_edge_borders none
+mode $printBindingModeName {
+	bindsym Escape mode "default"
+	bindsym a exec "spectacle --activewindow" ; mode "default"
+	bindsym f exec "spectacle --fullscreen" ; mode "default"
+	bindsym m exec "spectacle --current" ; mode "default"
+	bindsym r exec "spectacle --region" ; mode "default"
+}
 new_window pixel 1
 set $black "#000000ff"
 set $darkDarkGray "#333333ff"
@@ -95,6 +103,7 @@ set $lightDarkRed "#990000ff"
 set $lightLightGray "#ccccccff"
 set $lightLightRed "#cc0000ff"
 set $mod Mod4
+set $printBindingModeName "Print"
 set $red "#ff0000ff"
 set $white "#ffffffff"
 set $ws0 "10"

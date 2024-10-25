@@ -41,7 +41,7 @@ echo "Installing OpenSSH..."
 yay --sync --needed openssh
 
 echo "Checking if SSH is configured..."
-if [ ! -d ~/.ssh ]; then
+if [ ! --d ~/.ssh ]; then
 	echo "Creating a new SSH key pair..."
 	ssh-keygen -t ed25519
 fi
@@ -90,6 +90,9 @@ yay --sync --needed thunar
 
 echo "Installing Termite..."
 yay --sync --needed termite
+
+echo "Installing noto-fonts-emoji..."
+yay --sync --needed noto-fonts-emoji
 
 echo "Configuring Bash..."
 cp $(dirname $0)/assets/.bashrc ~/.bashrc

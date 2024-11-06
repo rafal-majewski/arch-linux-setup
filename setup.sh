@@ -75,3 +75,6 @@ echo "Installing Termite..."
 yay --sync --needed termite
 echo "Installing Thunar..."
 yay --sync --needed thunar
+echo "Configuring Thunar..."
+mkdir -p "${HOME}/.config/xfce4"
+cp $(dirname "${0}")/assets/.config/xfce4/helpers.rc "${HOME}/.config/xfce4/helpers.rc"

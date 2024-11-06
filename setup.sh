@@ -67,3 +67,6 @@ echo "Installing Ark..."
 yay --sync --needed ark
 echo "Installing Thunar..."
 yay --sync --needed thunar
+echo "Configuring Thunar..."
+mkdir -p ~/.config/xfce4
+cp $(dirname $0)/assets/.config/xfce4/helpers.rc ~/.config/xfce4/helpers.rc

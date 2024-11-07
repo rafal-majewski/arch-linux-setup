@@ -29,6 +29,44 @@ bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
+bindsym $mod+0 workspace $ws10
+bindsym $mod+0 workspace $ws10
+bindsym $mod+0 workspace $ws10
+bindsym $mod+1 workspace $ws1
+bindsym $mod+1 workspace $ws1
+bindsym $mod+1 workspace $ws1
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+2 workspace $ws2
+bindsym $mod+2 workspace $ws2
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+3 workspace $ws3
+bindsym $mod+3 workspace $ws3
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+4 workspace $ws4
+bindsym $mod+4 workspace $ws4
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+5 workspace $ws5
+bindsym $mod+5 workspace $ws5
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+6 workspace $ws6
+bindsym $mod+6 workspace $ws6
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+7 workspace $ws7
+bindsym $mod+7 workspace $ws7
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+8 workspace $ws8
+bindsym $mod+8 workspace $ws8
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+9 workspace $ws9
+bindsym $mod+9 workspace $ws9
 bindsym $mod+9 workspace $ws9
 bindsym $mod+Ctrl+Down resize grow down 1 px
 bindsym $mod+Ctrl+Left resize grow left 1 px
@@ -49,6 +87,68 @@ bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Down focus down
+bindsym $mod+Down focus down
+bindsym $mod+Down focus down
+bindsym $mod+Escape exec --no-startup-id shutdown now
+bindsym $mod+Escape exec --no-startup-id shutdown now
+bindsym $mod+Escape exec --no-startup-id shutdown now
+bindsym $mod+Escape exec --no-startup-id shutdown now
+bindsym $mod+Left focus left
+bindsym $mod+Left focus left
+bindsym $mod+Left focus left
+bindsym $mod+Left focus left
+bindsym $mod+Next focus child
+bindsym $mod+Next focus child
+bindsym $mod+Next focus child
+bindsym $mod+Next focus child
+bindsym $mod+Prior focus parent
+bindsym $mod+Prior focus parent
+bindsym $mod+Prior focus parent
+bindsym $mod+Prior focus parent
+bindsym $mod+Right focus right
+bindsym $mod+Right focus right
+bindsym $mod+Right focus right
+bindsym $mod+Right focus right
+bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+Ctrl+Down resize shrink down 1 px
 bindsym $mod+Shift+Ctrl+Left resize shrink left 1 px
@@ -63,18 +163,73 @@ bindsym $mod+Shift+Tab workspace prev
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+space floating toggle
 bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Next move child
+bindsym $mod+Shift+Next move child
+bindsym $mod+Shift+Next move child
+bindsym $mod+Shift+Next move child
+bindsym $mod+Shift+Prior move parent
+bindsym $mod+Shift+Prior move parent
+bindsym $mod+Shift+Prior move parent
+bindsym $mod+Shift+Prior move parent
+bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+Tab workspace next
+bindsym $mod+Tab workspace next
+bindsym $mod+Tab workspace next
+bindsym $mod+Tab workspace next
+bindsym $mod+Up focus up
+bindsym $mod+Up focus up
+bindsym $mod+Up focus up
 bindsym $mod+Up focus up
 bindsym $mod+b exec rofi -show window -config ~/.config/rofi/rofidmenu.rasi
 bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi
 bindsym $mod+f fullscreen toggle
+bindsym $mod+f fullscreen toggle
+bindsym $mod+f fullscreen toggle
+bindsym $mod+g split h
+bindsym $mod+g split h
+bindsym $mod+g split h
 bindsym $mod+g split h
 bindsym $mod+space focus mode_toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+v split v
+bindsym $mod+v split v
+bindsym $mod+v split v
 bindsym $mod+v split v
 bindsym $mod+w kill
+bindsym $mod+w kill
+bindsym $mod+w kill
+bindsym $mod+w kill
+bindsym Print mode $printBindingModeName
 bindsym Print mode $printBindingModeName
 bindsym XF86AudioLowerVolume exec --no-startup-id ~/.config/i3/volume-manipulation/decrease.sh
-bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.config/i3/volume-manipulation/increase.sh
 bindsym XF86AudioMute exec --no-startup-id ~/.config/i3/volume-manipulation/toggle-mute.sh
+bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.config/i3/volume-manipulation/increase.sh
+bindsym XF86MonBrightnessDown exec --no-startup-id ~/.config/i3/brightness-manipulation/decrease.sh
+bindsym XF86MonBrightnessUp exec --no-startup-id ~/.config/i3/brightness-manipulation/increase.sh
 client.background $errorColor
 client.focused $white $darkLightGray $white $white $white
 client.focused_inactive $lightLightGray $darkDarkGray $lightLightGray $lightLightGray $lightLightGray
@@ -85,7 +240,6 @@ client.urgent $errorColor $errorColor $errorColor $errorColor $errorColor
 floating_modifier $mod
 font pango: Noto Sans Regular 12
 gaps inner 0
-gaps outer 0
 hide_edge_borders none
 mode $printBindingModeName {
 	bindsym Escape mode "default"
@@ -95,28 +249,99 @@ mode $printBindingModeName {
 	bindsym r exec spectacle --region ; mode "default"
 }
 new_window pixel 1
+new_window pixel 1
+new_window pixel 1
+set $black "#000000ff"
+set $black "#000000ff"
+set $black "#000000ff"
 set $black "#000000ff"
 set $darkDarkGray "#333333ff"
+set $darkDarkGray "#333333ff"
+set $darkDarkGray "#333333ff"
+set $darkDarkGray "#333333ff"
+set $darkDarkRed "#330000ff"
+set $darkDarkRed "#330000ff"
+set $darkDarkRed "#330000ff"
 set $darkDarkRed "#330000ff"
 set $darkLightGray "#666666ff"
+set $darkLightGray "#666666ff"
+set $darkLightGray "#666666ff"
+set $darkLightGray "#666666ff"
+set $darkLightRed "#660000ff"
+set $darkLightRed "#660000ff"
+set $darkLightRed "#660000ff"
 set $darkLightRed "#660000ff"
 set $errorColor "#00ff00ff"
+set $errorColor "#00ff00ff"
+set $errorColor "#00ff00ff"
+set $errorColor "#00ff00ff"
+set $lightDarkGray "#999999ff"
+set $lightDarkGray "#999999ff"
+set $lightDarkGray "#999999ff"
 set $lightDarkGray "#999999ff"
 set $lightDarkRed "#990000ff"
+set $lightDarkRed "#990000ff"
+set $lightDarkRed "#990000ff"
+set $lightDarkRed "#990000ff"
+set $lightLightGray "#ccccccff"
+set $lightLightGray "#ccccccff"
+set $lightLightGray "#ccccccff"
 set $lightLightGray "#ccccccff"
 set $lightLightRed "#cc0000ff"
+set $lightLightRed "#cc0000ff"
+set $lightLightRed "#cc0000ff"
+set $lightLightRed "#cc0000ff"
+set $mod Mod4
+set $mod Mod4
+set $mod Mod4
 set $mod Mod4
 set $printBindingModeName "Print"
+set $printBindingModeName "Print"
+set $red "#ff0000ff"
+set $red "#ff0000ff"
+set $red "#ff0000ff"
 set $red "#ff0000ff"
 set $white "#ffffffff"
+set $white "#ffffffff"
+set $white "#ffffffff"
+set $white "#ffffffff"
+set $ws0 "10"
+set $ws0 "10"
+set $ws0 "10"
 set $ws0 "10"
 set $ws1 "1"
+set $ws1 "1"
+set $ws1 "1"
+set $ws1 "1"
+set $ws2 "2"
+set $ws2 "2"
+set $ws2 "2"
 set $ws2 "2"
 set $ws3 "3"
+set $ws3 "3"
+set $ws3 "3"
+set $ws3 "3"
+set $ws4 "4"
+set $ws4 "4"
+set $ws4 "4"
 set $ws4 "4"
 set $ws5 "5"
+set $ws5 "5"
+set $ws5 "5"
+set $ws5 "5"
+set $ws6 "6"
+set $ws6 "6"
+set $ws6 "6"
 set $ws6 "6"
 set $ws7 "7"
+set $ws7 "7"
+set $ws7 "7"
+set $ws7 "7"
 set $ws8 "8"
+set $ws8 "8"
+set $ws8 "8"
+set $ws8 "8"
+set $ws9 "9"
+set $ws9 "9"
 set $ws9 "9"
 workspace_layout default

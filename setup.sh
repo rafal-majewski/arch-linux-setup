@@ -48,6 +48,10 @@ yay --sync --needed xorg-xinit
 echo "Configuring i3..."
 mkdir -p ~/.config/i3
 cp $(dirname $0)/assets/.config/i3/config ~/.config/i3/config
+mkdir -p ~/.config/i3/volume-manipulation
+cp $(dirname $0)/assets/.config/i3/volume-manipulation/decrease.sh ~/.config/i3/volume-manipulation/decrease.sh
+cp $(dirname $0)/assets/.config/i3/volume-manipulation/increase.sh ~/.config/i3/volume-manipulation/increase.sh
+cp $(dirname $0)/assets/.config/i3/volume-manipulation/toggle-mute.sh ~/.config/i3/volume-manipulation/toggle-mute.sh
 i3-msg reload
 echo "Configuring xinit..."
 cp $(dirname $0)/assets/.xinitrc ~/.xinitrc

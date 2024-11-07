@@ -53,6 +53,7 @@ cp $(dirname $0)/assets/.config/i3/scripts/decrease-brightness.sh ~/.config/i3/s
 cp $(dirname $0)/assets/.config/i3/scripts/decrease-volume.sh ~/.config/i3/scripts/decrease-volume.sh
 cp $(dirname $0)/assets/.config/i3/scripts/increase-brightness.sh ~/.config/i3/scripts/increase-brightness.sh
 cp $(dirname $0)/assets/.config/i3/scripts/increase-volume.sh ~/.config/i3/scripts/increase-volume.sh
+cp $(dirname $0)/assets/.config/i3/scripts/mute-volume.sh ~/.config/i3/scripts/mute-volume.sh
 i3-msg reload
 echo "Configuring xinit..."
 cp $(dirname $0)/assets/.xinitrc ~/.xinitrc

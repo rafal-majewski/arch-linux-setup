@@ -81,3 +81,5 @@ echo "Installing the \"noto-fonts-emoji\" package..."
 yay --sync --needed noto-fonts-emoji
 echo "Installing Spectacle"
 yay --sync --needed spectacle
+echo "Installing Greenclip..."
+yay --sync --needed greenclip

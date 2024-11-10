@@ -59,45 +59,32 @@ echo "Configuring xinit..."
 cp $(dirname $0)/assets/.xinitrc ~/.xinitrc
 echo "Installing Visual Studio Code..."
 yay --sync --needed visual-studio-code-bin
-
 echo "Setting Visual Studio Code as the text editor for Git..."
 git config --global core.editor "code --wait"
-
 echo "Installing Google Chrome..."
 yay --sync --needed google-chrome
-
 echo "Installing GIMP..."
 yay --sync --needed gimp
-
 echo "Installing the \"net-tools\" package..."
 yay --sync --needed net-tools
-
 echo "Installing Less..."
 yay --sync --needed less
-
 echo "Installing Ark..."
 yay --sync --needed ark
-
 echo "Installing Thunar..."
 yay --sync --needed thunar
-
 echo "Installing Termite..."
 yay --sync --needed termite
-
 echo "Installing the \"noto-fonts-emoji\" package..."
 yay --sync --needed noto-fonts-emoji
-
 echo "Installing Spectacle"
 yay --sync --needed spectacle
-
 echo "Configuring Bash..."
 cp $(dirname $0)/assets/.bashrc ~/.bashrc
 cp $(dirname $0)/assets/.bash_profile ~/.bash_profile
 cp $(dirname $0)/assets/.bash_logout ~/.bash_logout
-
 echo "Configuring Thunar..."
 mkdir -p ~/.config/xfce4
 cp $(dirname $0)/assets/.config/xfce4/helpers.rc ~/.config/xfce4/helpers.rc
-
 echo "Installing Greenclip..."
 yay --sync --needed greenclip

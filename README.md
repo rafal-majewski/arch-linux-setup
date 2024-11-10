@@ -3,7 +3,6 @@
 This repository contains scripts and configuration files to setup a new Arch Linux installation that fits my needs.
 
 ## archinstall options
-
 -   `Mirrors - Defined`
     -   `Mirror region - Poland`
 -   `Locales`

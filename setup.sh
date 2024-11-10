@@ -88,3 +88,5 @@ echo "Installing Spectacle"
 yay --sync --needed spectacle
 echo "Installing Greenclip..."
 yay --sync --needed rofi-greenclip
+echo "Configuring Greenclip..."
+cp "$(dirname "${0}")/assets/.config/greenclip.toml" "${HOME}/.config/greenclip.toml"

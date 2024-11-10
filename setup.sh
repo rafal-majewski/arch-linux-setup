@@ -90,3 +90,5 @@ echo "Configuring Greenclip..."
 cp $(dirname $0)/assets/.config/greenclip.toml ~/.config/greenclip.toml
 echo "Enabling the Greenclip service..."
 systemctl --user enable greenclip
+echo "Starting the Greenclip service..."
+systemctl --user start greenclip

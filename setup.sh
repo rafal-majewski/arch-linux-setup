@@ -108,3 +108,6 @@ cp $(dirname $0)/assets/.bash_logout ~/.bash_logout
 echo "Configuring Thunar..."
 mkdir -p ~/.config/xfce4
 cp $(dirname $0)/assets/.config/xfce4/helpers.rc ~/.config/xfce4/helpers.rc
+
+echo "Installing Greenclip..."
+yay --sync --needed greenclip

@@ -94,11 +94,15 @@ bar {
 		background $black
 		binding_mode $red $darkRed $lightRed
 		focused_separator $errorColor
+		focused_statusline $white
 		focused_workspace $white $darkGray $white
 		inactive_workspace $lightGray $black $gray
 		separator $errorColor
+		statusline $white
 		urgent_workspace $red $darkRed $lightRed
 	}
+
+	status_command ~/.config/i3/bar/src/main.ts
 }
 
 bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi

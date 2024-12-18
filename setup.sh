@@ -39,6 +39,8 @@ if [ ! -d ~/.ssh ]; then
 fi
 echo "Installing i3..."
 yay --sync --needed i3-wm
+echo "Installing Deno for i3..."
+yay --sync --needed deno
 echo "Installing Rofi for i3..."
 yay --sync --needed rofi
 echo "Installing the \"xorg-server\" package for i3..."
@@ -47,7 +49,7 @@ echo "Installing the \"xorg-xinit\" package for i3..."
 yay --sync --needed xorg-xinit
 echo "Configuring i3..."
 rsync --archive --delete "$(dirname $0)/assets/.config/i3/" ~/.config/i3/
-i3-msg reload
+i3-msg restart
 echo "Configuring xinit..."
 cp "$(dirname $0)/assets/.xinitrc" "~/.xinitrc"
 echo "Installing Visual Studio Code..."

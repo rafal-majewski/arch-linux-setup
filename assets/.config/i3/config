@@ -15,6 +15,7 @@ bar {
 	font pango: Noto Sans Regular 12
 	mode dock
 	position bottom
+	status_command ~/.config/i3/bar/src/main.ts
 	strip_workspace_numbers no
 	tray_output none
 	workspace_buttons yes

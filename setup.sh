@@ -54,8 +54,12 @@ yay --sync --needed rofi
 echo "Installing the \"xorg-xinit\" package for i3..."
 yay --sync --needed xorg-xinit
 
+echo "Installing Deno..."
+yay --sync --needed deno
+
 echo "Configuring i3..."
 mkdir -p ~/.config/i3
+cp -r $(dirname $0)/assets/.config/i3/bar ~/.config/i3/bar
 cp $(dirname $0)/assets/.config/i3/config ~/.config/i3/config
 mkdir -p ~/.config/i3/scripts
 cp $(dirname $0)/assets/.config/i3/scripts/decrease-brightness.sh ~/.config/i3/scripts/decrease-brightness.sh

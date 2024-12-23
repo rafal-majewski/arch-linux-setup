@@ -1,7 +1,7 @@
 import type { BatteryStatusChargingState } from "../../status/charging-state/BatteryStatusChargingState.ts";
 
 export function computeBatteryStatusChargingState(
-	statusCommandOutput: string,
+	statusCommandOutput: "Charging\n" | "Discharging\n" | "Full\n",
 ): BatteryStatusChargingState {
 	switch (statusCommandOutput) {
 		case "Charging\n": {
@@ -10,8 +10,8 @@ export function computeBatteryStatusChargingState(
 		case "Discharging\n": {
 			return "discharging";
 		}
-		default: {
-			return "unknown";
+		case "Full\n": {
+			return "discharging";
 		}
 	}
 }

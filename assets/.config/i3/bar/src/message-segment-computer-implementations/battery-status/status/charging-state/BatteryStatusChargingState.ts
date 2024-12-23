@@ -1,1 +1,1 @@
-export type BatteryStatusChargingState = "charging" | "discharging" | "unknown";
+export type BatteryStatusChargingState = "charging" | "discharging" | "full";

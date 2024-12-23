@@ -12,8 +12,8 @@ export function computeFormattedBatteryStatusEmoji(
 		case "charging": {
 			return "🔌";
 		}
-		default: {
-			return "❓";
+		case "full": {
+			return "⚡";
 		}
 	}
 }

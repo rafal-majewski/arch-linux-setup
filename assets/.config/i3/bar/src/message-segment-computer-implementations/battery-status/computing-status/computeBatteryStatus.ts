@@ -4,7 +4,7 @@ import { computeBatteryStatusLevel } from "./computing-level/computeBatteryStatu
 
 export function computeBatteryStatus(
 	capacityCommandOutput: string,
-	statusCommandOutput: string,
+	statusCommandOutput: "Charging\n" | "Discharging\n" | "Full\n",
 ): BatteryStatus {
 	const level = computeBatteryStatusLevel(capacityCommandOutput);
 	const chargingState = computeBatteryStatusChargingState(statusCommandOutput);

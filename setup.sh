@@ -91,3 +91,5 @@ echo "Enabling the Greenclip service..."
 systemctl --user enable greenclip
 echo "Starting the Greenclip service..."
 systemctl --user start greenclip
+echo "Installing autorandr..."
+yay --sync --needed autorandr

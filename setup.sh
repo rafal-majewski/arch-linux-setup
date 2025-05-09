@@ -52,7 +52,10 @@ mkdir -p ~/.config/i3
 rm -rf ~/.config/i3/bar
 cp -r $(dirname $0)/assets/.config/i3/bar ~/.config/i3/bar
 cp $(dirname $0)/assets/.config/i3/config ~/.config/i3/config
+mkdir -p ~/.config/i3/brightness-manipulation
 mkdir -p ~/.config/i3/volume-manipulation
+cp $(dirname $0)/assets/.config/i3/brightness-manipulation/decrease.sh ~/.config/i3/brightness-manipulation/decrease.sh
+cp $(dirname $0)/assets/.config/i3/brightness-manipulation/increase.sh ~/.config/i3/brightness-manipulation/increase.sh
 cp $(dirname $0)/assets/.config/i3/volume-manipulation/decrease.sh ~/.config/i3/volume-manipulation/decrease.sh
 cp $(dirname $0)/assets/.config/i3/volume-manipulation/increase.sh ~/.config/i3/volume-manipulation/increase.sh
 cp $(dirname $0)/assets/.config/i3/volume-manipulation/toggle-mute.sh ~/.config/i3/volume-manipulation/toggle-mute.sh

@@ -39,3 +39,5 @@ if [ ! -d "${HOME}/.ssh" ]; then
 fi
 echo "Installing i3..."
 yay --sync --needed i3-wm
+echo "Installing rsync..."
+yay --sync --needed rsync

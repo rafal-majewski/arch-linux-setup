@@ -41,3 +41,8 @@ echo "Installing i3..."
 yay --sync --needed i3-wm
 echo "Installing rsync..."
 yay --sync --needed rsync
+echo "Allowing for brightness control without sudo..."
+cp "$(dirname "${0}")/assets/rules.d/90-backlight.rules" /etc/udev/rules.d/90-backlight.rules
+sudo udevadm control --reload
+sudo udevadm trigger
+sudo usermod -aG video "${USER}"

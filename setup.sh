@@ -96,3 +96,5 @@ echo "Installing autorandr..."
 yay --sync --needed autorandr
 echo "Configuring Docker..."
 sudo systemctl enable docker.service
+echo "Starting Docker..."
+sudo systemctl start docker.service

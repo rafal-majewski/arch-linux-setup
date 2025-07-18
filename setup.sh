@@ -94,3 +94,5 @@ echo "Configuring Greenclip..."
 cp "$(dirname "${0}")/assets/.config/greenclip.toml" "${HOME}/.config/greenclip.toml"
 echo "Installing autorandr..."
 yay --sync --needed autorandr
+echo "Configuring Docker..."
+sudo systemctl enable docker.service

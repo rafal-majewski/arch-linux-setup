@@ -85,6 +85,7 @@ client.focused_tab_title $errorColor $errorColor $errorColor $errorColor $errorC
 client.placeholder $errorColor $errorColor $errorColor $errorColor $errorColor
 client.unfocused $lightDarkGray $black $lightDarkGray $lightDarkGray $lightDarkGray
 client.urgent $errorColor $errorColor $errorColor $errorColor $errorColor
+exec_always --no-startup-id "greenclip daemon"
 floating_modifier $mod
 font pango: Noto Sans Regular 12
 gaps inner 0

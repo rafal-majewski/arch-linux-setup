@@ -100,3 +100,5 @@ echo "Starting Docker..."
 sudo systemctl start docker.service
 echo "Setting the default keyboard layout for X sessions..."
 sudo cp "$(dirname "${0}")/assets/xorg.conf.d/00-keyboard.conf" /etc/X11/xorg.conf.d/00-keyboard.conf
+echo "Setting the keyboard layout for the current X session..."
+setxkbmap -layout pl -model pc105 -variant basic
